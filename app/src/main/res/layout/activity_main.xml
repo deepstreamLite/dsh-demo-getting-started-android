@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+    <Button
+        android:text="Event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:id="@+id/event_button" />
+
+    <Button
+        android:text="RPC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rpc_button"
+        android:layout_below="@+id/event_button"
+        android:layout_alignLeft="@+id/event_button"
+        android:layout_alignStart="@+id/event_button"
+        android:layout_marginTop="81dp" />
+
+    <Button
+        android:text="Record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/record_button"
+        android:layout_below="@+id/rpc_button"
+        android:layout_alignLeft="@+id/rpc_button"
+        android:layout_alignStart="@+id/rpc_button"
+        android:layout_marginTop="95dp" />
+
+</RelativeLayout>

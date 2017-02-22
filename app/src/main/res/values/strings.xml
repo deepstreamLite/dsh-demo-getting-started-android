@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">getting-started</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="dsh_app_url">ws://154.dsh.cloud?apiKey=32ceb3fe-6a46-4152-ab51-ddeb9fc8866d</string>
+</resources>
